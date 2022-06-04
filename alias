@@ -1,0 +1,8 @@
+alias vpn-up='sudo wg-quick up /etc/wireguard/[HOSTNAME].conf'
+alias vpn-down='sudo wg-quick down /etc/wireguard/[HOSTNAME].conf'
+alias hgrep='history | grep'
+alias big10='find . -type f -print0 | xargs -0 du -h | sort -hr | head -10'
+alias smbmount='sudo mount -t cifs -o rw,vers=3.0,credentials=/home/gr3yspace/.smbcredentials //[SMB_IP]/external /mnt/samba'
+alias ipa='ip a | grep 192'
+alias lgrep='ls | grep'
+alias publicip='curl ifconfig.me' 
